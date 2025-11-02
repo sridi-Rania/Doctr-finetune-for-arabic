@@ -1,0 +1,1 @@
+venv/bin/python3 /mnt/shared/rania/rania_stage_ocr_ar/doctr/references/detection/train.py db_resnet50 --train_path /mnt/shared/rania/rania_stage_ocr_ar/detection/train --val_path /mnt/shared/rania/rania_stage_ocr_ar/detection/val --epochs 10 --amp --batch_size 8 --lr 0.0001 --optim adam --workers 0 --output_dir /mnt/shared/rania/rania_stage_ocr_ar/detection/output --wb
